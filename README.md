@@ -1,8 +1,46 @@
-# React + Vite
+# Calculator Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React + Vite calculator application.
 
-Currently, two official plugins are available:
+## Project Structure
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```
+Calculator/
+├── .git/                   # Git repository
+├── .gitignore              # Git ignore rules
+├── .vite/                  # Vite cache
+├── README.md               # Project documentation
+├── eslint.config.js        # ESLint configuration
+├── index.html              # Entry HTML file
+├── package.json            # Dependencies and scripts
+├── package-lock.json       # Lock file
+├── vite.config.js          # Vite configuration
+├── img/                    # Images
+│   └── Calculator.png
+├── public/                 # Static assets
+│   ├── calculator-icon-31.png
+│   └── vite.svg
+└── src/                    # Source code
+    ├── App.css             # Main app styles
+    ├── App.jsx             # Main app component
+    ├── index.css           # Global styles
+    ├── main.jsx            # Entry point
+    ├── assets/             # Assets
+    │   └── react.svg
+    └── componet/           # Components
+        ├── Calculator.css  # Calculator styles
+        └── calculator.jsx  # Calculator component
+```
+
+## Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run lint` - Run ESLint
+- `npm run preview` - Preview production build
+
+## Technologies
+
+- React 18.3.1
+- Vite 5.4.10
+- ESLint
