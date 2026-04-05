@@ -1,7 +1,7 @@
 
 
 <h1 align="center">
-   Calculator
+   🧮 Calculator
 </h1>
 
 <p align="center">
