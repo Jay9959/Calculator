@@ -1,7 +1,7 @@
-# 🧮 Calculator
+
 
 <p align="center">
-  <img src="./img/Calculator.png" alt="Calculator Preview" width="400">
+  # 🧮 Calculator
 </p>
 
 <p align="center">
