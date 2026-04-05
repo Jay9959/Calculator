@@ -29,7 +29,7 @@ function Calculator() {
         return null;
     };
 
-    const MAX_DIGITS = 15;
+    const MAX_DIGITS = 6000;
 
     const handleKeyPress = useCallback((e) => {
         const key = e.key;
@@ -44,7 +44,7 @@ function Calculator() {
             setValue(prev => {
                 const newValue = justCalculated ? key : prev + key;
                 if (newValue.length > MAX_DIGITS) {
-                    showError('Max 15 characters allowed');
+                    showError('Max 6000 characters allowed');
                     return prev;
                 }
                 return newValue;
@@ -145,7 +145,7 @@ function Calculator() {
             } else {
                 const newValue = value + val;
                 if (newValue.length > MAX_DIGITS) {
-                    showError('Max 15 characters allowed');
+                    showError('Max 6000 characters allowed');
                     return;
                 }
                 setValue(newValue);
