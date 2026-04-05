@@ -1,8 +1,8 @@
-# 🧮 Calculator
 
-<p align="center">
-  <img src="./img/Calculator.png" alt="Calculator Preview" width="400">
-</p>
+
+<h1 align="center">
+   🧮 Calculator
+</h1>
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/React-18.3.1-61DAFB?style=flat-square&logo=react&logoColor=white" alt="React"></a>
